@@ -1,4 +1,5 @@
-shadowsocks
+
+${s-socks}
 ===========
 
 [![PyPI version]][PyPI]
@@ -15,12 +16,12 @@ Server
 Debian / Ubuntu:
 
     apt-get install python-pip
-    pip install shadowsocks
+    pip install ${s-socks}
 
 CentOS:
 
     yum install python-setuptools && easy_install pip
-    pip install shadowsocks
+    pip install ${s-socks}
 
 Windows:
 
@@ -40,7 +41,7 @@ To stop:
 
 To check the log:
 
-    sudo less /var/log/shadowsocks.log
+    sudo less /var/log/${s-socks}.log
 
 Check all the options via `-h`. You can also use a [Configuration] file
 instead.
@@ -86,21 +87,21 @@ Bugs and Issues
 
 
 
-[Android]:           https://github.com/shadowsocks/shadowsocks-android
-[Build Status]:      https://img.shields.io/travis/shadowsocks/shadowsocks/master.svg?style=flat
-[Configuration]:     https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File
-[Coverage Status]:   https://jenkins.shadowvpn.org/result/shadowsocks
+[Android]:           https://github.com/${s-socks}/${s-socks}-android
+[Build Status]:      https://img.shields.io/travis/${s-socks}/${s-socks}/master.svg?style=flat
+[Configuration]:     https://github.com/${s-socks}/${s-socks}/wiki/Configuration-via-Config-File
+[Coverage Status]:   https://jenkins.shadowvpn.org/result/${s-socks}
 [Coverage]:          https://jenkins.shadowvpn.org/job/Shadowsocks/ws/PYENV/py34/label/linux/htmlcov/index.html
-[Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
-[iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
-[Issue Tracker]:     https://github.com/shadowsocks/shadowsocks/issues?state=open
-[Install Server on Windows]: https://github.com/shadowsocks/shadowsocks/wiki/Install-Shadowsocks-Server-on-Windows
-[Mailing list]:      https://groups.google.com/group/shadowsocks
-[OpenWRT]:           https://github.com/shadowsocks/openwrt-shadowsocks
-[OS X]:              https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help
-[PyPI]:              https://pypi.python.org/pypi/shadowsocks
-[PyPI version]:      https://img.shields.io/pypi/v/shadowsocks.svg?style=flat
-[Travis CI]:         https://travis-ci.org/shadowsocks/shadowsocks
-[Troubleshooting]:   https://github.com/shadowsocks/shadowsocks/wiki/Troubleshooting
-[Wiki]:              https://github.com/shadowsocks/shadowsocks/wiki
-[Windows]:           https://github.com/shadowsocks/shadowsocks-csharp
+[Debian sid]:        https://packages.debian.org/unstable/python/${s-socks}
+[iOS]:               https://github.com/${s-socks}/${s-socks}-iOS/wiki/Help
+[Issue Tracker]:     https://github.com/${s-socks}/${s-socks}/issues?state=open
+[Install Server on Windows]: https://github.com/${s-socks}/${s-socks}/wiki/Install-Shadowsocks-Server-on-Windows
+[Mailing list]:      https://groups.google.com/group/${s-socks}
+[OpenWRT]:           https://github.com/${s-socks}/openwrt-${s-socks}
+[OS X]:              https://github.com/${s-socks}/${s-socks}-iOS/wiki/Shadowsocks-for-OSX-Help
+[PyPI]:              https://pypi.python.org/pypi/${s-socks}
+[PyPI version]:      https://img.shields.io/pypi/v/${s-socks}.svg?style=flat
+[Travis CI]:         https://travis-ci.org/${s-socks}/${s-socks}
+[Troubleshooting]:   https://github.com/${s-socks}/${s-socks}/wiki/Troubleshooting
+[Wiki]:              https://github.com/${s-socks}/${s-socks}/wiki
+[Windows]:           https://github.com/${s-socks}/${s-socks}-csharp
